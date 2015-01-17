@@ -1,0 +1,33 @@
+.nav-container {
+    /*position: fixed;*/
+    background: black;
+}
+
+/*
+.nav-container {
+    text-align: center;
+}
+
+.nav-container ul { display: inline-block; }*/
+
+.nav-pills {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.nav-pills li.active > a {
+    background-color: transparent;
+}
+
+.nav-pills li.active > a:focus, .nav-pills li.active > a:hover {
+    background-color: #333;
+}
+
+.nav-pills > li > a {
+    color: white;
+}
+
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
+    background-color: #333;
+    border-radius: 0px;
+}

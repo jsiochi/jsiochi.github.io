@@ -1,0 +1,22 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.video-box {
+    padding-top: 20px;
+}
+
+.btn-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.supporters {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.supporters * {
+    font-size: 18px;
+    font-weight: 600;
+}
