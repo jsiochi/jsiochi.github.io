@@ -907,7 +907,8 @@ a:focus {
   overflow: hidden;
   background: #4B4848;
   background-size: cover;
-  background-image: url("https://farm9.staticflickr.com/8586/16681101992_702d2a6874_k_d.jpg");
+  /*background-image: url("https://farm3.staticflickr.com/2886/12949259213_f2f0307b1c_h_d.jpg");*/
+    background-image: url("https://farm1.staticflickr.com/82/243089839_893307c5fe_o_d.jpg");
   background-position: center 16%;
   height: 580px;
   position: relative;
@@ -962,9 +963,9 @@ a:focus {
   font-family: "Lato", "Helvetica Neue", Arial;
   line-height: 52px;
   text-align: left;
-  font-size: 37px;
-  text-transform: uppercase;
-  font-weight: 300;
+  width: 50%;
+  font-size: 40px;
+  font-weight: 400;
   letter-spacing: .3px;
   color: #FFF;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -973,6 +974,7 @@ a:focus {
 
 @media (max-width: 767px) {
   #home #gb h1.gb-text {
+    width: 50%;
     font-size: 25px;
     line-height: 38px;
     margin-top: 0;
@@ -1057,8 +1059,20 @@ a:focus {
   color: #757575;
 }
 
+#home #gb-points #explore-point .image {
+    top: 40px;
+}
+
+#home #gb-points .gb-point .image img {
+    float: right;
+}
+
+#home #gb-points .gb-point.backwards .image img {
+    float: left;
+}
+
 #home #gb-points .gb-point {
-  margin-top: 55px;
+  margin-top: 0px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -1081,8 +1095,8 @@ a:focus {
 #home #gb-points .gb-point .info h4 {
   color: #3B88B6;
   font-weight: normal;
-  font-size: 19px;
-  line-height: 25px;
+  font-size: 30px;
+  line-height: 35px;
   margin-top: 35px;
 }
 
@@ -1094,9 +1108,9 @@ a:focus {
 
 #home #gb-points .gb-point .info p {
   color: #6C7279;
-  font-size: 14px;
+  font-size: 24px;
   margin-top: 20px;
-  line-height: 24px;
+  line-height: 28px;
   width: 83%;
   font-weight: normal;
 }
@@ -1105,7 +1119,7 @@ a:focus {
   #home #gb-points .gb-point .info p {
     text-align: center;
     width: 100%;
-    font-size: 14px;
+    font-size: 24px;
   }
 }
 
